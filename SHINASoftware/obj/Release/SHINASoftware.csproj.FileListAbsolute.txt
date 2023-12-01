@@ -1,0 +1,442 @@
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe.config
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.pdb
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\AxShockwaveFlashObjects.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\MySql.Data.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\QRCoder.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\ShockwaveFlashObjects.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Web.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\Google.Protobuf.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\Zstandard.Net.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\K4os.Compression.LZ4.Streams.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\Ubiety.Dns.Core.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\Renci.SshNet.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\stdole.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\System.Buffers.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\K4os.Compression.LZ4.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\K4os.Hash.xxHash.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\MySql.Data.xml
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.exe.config
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AcademicYearForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AccessForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ActivateDeactivateForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ClassForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ClassroomForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.DashboardForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.DivisionForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditEnrolledStudentsForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPaymentStudentForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPayrollForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditStudentsForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EmployeeForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EnrollStudentForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FeesForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FormDashboard.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FullDashboardForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.GradeForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfEnrolledStudentForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfPayrollForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfStudentsForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfStudentsPaidForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfTeachersForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.LoginForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ManageUsersForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MedicalDetailsForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PaymentStudentForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PayrollForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintEnrolledPupilForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintReceiptForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintSalaryForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.Properties.Resources.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.RegionForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SectionForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ShinaMain.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ShinaMainMDIParent.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.StudentsDetailsForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.StudentsForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SubdivisionForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.TeachersForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.CopyComplete
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.exe
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.pdb
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe.manifest
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.application
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.exe.manifest
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.application
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AssignTeacherClassForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintClassListForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditEmployeeAttendanceForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPupilAttendanceForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EmployeeAttendanceForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.JobDutyForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListofEmployeeAttendanceForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListofPupilAttendanceForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ManageEmployeeForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintEmployeeAttendanceForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPaymentListFormPerClass.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPaymentPerClassYearForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPayrollForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPupilAttendanceForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPupilWithDisabilityForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintStaffAssignClassListForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintStaffListForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PupilAttendanceForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SchoolFeesRemainderForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PupilsForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EducationForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintMedicalDetailsForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.RegisterPupilForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.BonusesForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.LoanForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.OvertimeForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MarksheetForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MarkListForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditMarkForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FirstTermReportCardForm.resources
+C:\Users\DELL\Documents\Visual Studio 2019\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FormerPupilForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe.config
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe.manifest
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.application
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.pdb
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\QRCoder.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Web.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\Google.Protobuf.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\Zstandard.Net.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\K4os.Compression.LZ4.Streams.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\Ubiety.Dns.Core.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\Renci.SshNet.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\stdole.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\System.Buffers.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\K4os.Compression.LZ4.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\K4os.Hash.xxHash.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\bin\Release\MySql.Data.xml
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csprojAssemblyReference.cache
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.exe.config
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AcademicYearForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AccessForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ActivateDeactivateForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AssignTeacherClassForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.BonusesForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ClassForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintClassListForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ClassroomForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.DashboardForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.DivisionForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditEmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditEnrolledStudentsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditMarkForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPaymentStudentForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPayrollForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditStudentsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EducationForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EmployeeForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EnrollStudentForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FeesForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FirstTermReportCardForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FormDashboard.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FormerPupilForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FullDashboardForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.GradeForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.JobDutyForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListofEmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfEnrolledStudentForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfPayrollForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListofPupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfStudentsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfStudentsPaidForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfTeachersForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.LoanForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.LoginForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ManageEmployeeForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ManageUsersForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MarkListForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MarksheetForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MedicalDetailsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.OvertimeForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PaymentStudentForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PayrollForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintEmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintEnrolledPupilForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintMedicalDetailsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPaymentListFormPerClass.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPaymentPerClassYearForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPayrollForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPupilWithDisabilityForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintReceiptForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintSalaryForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintStaffAssignClassListForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintStaffListForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.Properties.Resources.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PupilsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.RegionForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.RegisterPupilForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SchoolFeesRemainderForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SectionForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ShinaMain.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ShinaMainMDIParent.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.StudentsDetailsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.StudentsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SubdivisionForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.TeachersForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.GenerateResource.cache
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.CoreCompileInputs.cache
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.exe.manifest
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.application
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.CopyComplete
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.exe
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.pdb
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.GeneralBudgetForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.CategoryForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ExpensesForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfExpensesForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\Projects\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintExpensesForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe.config
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe.manifest
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.application
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.pdb
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\QRCoder.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Web.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\stdole.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AcademicYearForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AccessForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ActivateDeactivateForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AssignTeacherClassForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.BonusesForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.CategoryForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ClassForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintClassListForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ClassroomForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.DashboardForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.DivisionForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditEmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditEnrolledStudentsForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditMarkForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPaymentStudentForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPayrollForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditStudentsForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EducationForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EmployeeForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EnrollStudentForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ExpensesForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FeesForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FirstTermReportCardForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FormDashboard.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FormerPupilForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FullDashboardForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.GeneralBudgetForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.GradeForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.JobDutyForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListofEmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfEnrolledStudentForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfExpensesForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfPayrollForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListofPupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfStudentsForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfStudentsPaidForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfTeachersForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.LoanForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.LoginForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ManageEmployeeForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ManageUsersForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MarkListForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MarksheetForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MedicalDetailsForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.OvertimeForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PaymentStudentForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PayrollForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintEmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintEnrolledPupilForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintExpensesForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintMedicalDetailsForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPaymentListFormPerClass.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPaymentPerClassYearForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPayrollForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPupilWithDisabilityForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintReceiptForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintSalaryForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintStaffAssignClassListForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintStaffListForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.Properties.Resources.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PupilsForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.RegionForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.RegisterPupilForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SchoolFeesRemainderForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SectionForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ShinaMain.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ShinaMainMDIParent.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.StudentsDetailsForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.StudentsForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SubdivisionForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.TeachersForm.resources
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.GenerateResource.cache
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.CoreCompileInputs.cache
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.exe.manifest
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.application
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.CopyComplete
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.exe
+C:\Users\hassa\OneDrive\Desktop\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.pdb
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe.config
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe.manifest
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.application
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.exe
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\SHINASoftware.pdb
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Shared.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\QRCoder.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.Web.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\bin\Release\stdole.dll
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csprojAssemblyReference.cache
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AcademicYearForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AccessForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ActivateDeactivateForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AssignTeacherClassForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.BonusesForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.CategoryForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ClassForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintClassListForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ClassroomForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.DashboardForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.DivisionForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditEmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditEnrolledStudentsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditMarkForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPaymentStudentForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPayrollForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditPupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EditStudentsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EducationForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EmployeeForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.EnrollStudentForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ExpensesForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FeesForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FirstTermReportCardForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FormDashboard.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FormerPupilForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.FullDashboardForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.GeneralBudgetForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.GradeForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.JobDutyForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListofEmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfEnrolledStudentForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfExpensesForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfPayrollForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListofPupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfStudentsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfStudentsPaidForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ListOfTeachersForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.LoanForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.LoginForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ManageEmployeeForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ManageUsersForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MarkListForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MarksheetForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.MedicalDetailsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.OvertimeForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PaymentStudentForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PayrollForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintEmployeeAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintEnrolledPupilForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintExpensesForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintMedicalDetailsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPaymentListFormPerClass.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPaymentPerClassYearForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPayrollForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintPupilWithDisabilityForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintReceiptForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintSalaryForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintStaffAssignClassListForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintStaffListForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.Properties.Resources.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PupilAttendanceForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PupilsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.RegionForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.RegisterPupilForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SchoolFeesRemainderForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SectionForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ShinaMain.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.ShinaMainMDIParent.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.StudentsDetailsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.StudentsForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SubdivisionForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.TeachersForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.GenerateResource.cache
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.CoreCompileInputs.cache
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.exe.manifest
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.application
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.csproj.CopyComplete
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.exe
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.pdb
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintExpensesListForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AddAnIncomeForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintIncomeForm.resources

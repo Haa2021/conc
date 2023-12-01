@@ -1,0 +1,1409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29D1A15D-4C04-455D-80BB-12C476A14C1E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SHINASoftware</RootNamespace>
+    <AssemblyName>SHINASoftware</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\DELL\Documents\Visual Studio 2019\Projects\DEPLOY\sigepecsetup14052022\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>shina logo1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5DF3F78C84693FFC9441DE7E7DB9429DD92DB50E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SHINASoftware_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.4.3.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.4.3\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcademicYearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcademicYearForm.Designer.cs">
+      <DependentUpon>AcademicYearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccessForm.Designer.cs">
+      <DependentUpon>AccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivateDeactivateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivateDeactivateForm.Designer.cs">
+      <DependentUpon>ActivateDeactivateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddAnIncomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAnIncomeForm.Designer.cs">
+      <DependentUpon>AddAnIncomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignTeacherClassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignTeacherClassForm.Designer.cs">
+      <DependentUpon>AssignTeacherClassForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BonusesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BonusesForm.Designer.cs">
+      <DependentUpon>BonusesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoryForm.Designer.cs">
+      <DependentUpon>CategoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassForm.Designer.cs">
+      <DependentUpon>ClassForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassListCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassListCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ClassListDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassListDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ClassListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassListForm.Designer.cs">
+      <DependentUpon>ClassListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassroomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassroomForm.Designer.cs">
+      <DependentUpon>ClassroomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CR\IncomeCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IncomeCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisabilityCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DisabilityCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DisabilityDS.cs">
+      <DependentUpon>DisabilityDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DisabilityDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DisabilityDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DivisionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DivisionForm.Designer.cs">
+      <DependentUpon>DivisionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DS\IncomeDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IncomeDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EditEmployeeAttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditEmployeeAttendanceForm.Designer.cs">
+      <DependentUpon>EditEmployeeAttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditEnrolledStudentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditEnrolledStudentsForm.Designer.cs">
+      <DependentUpon>EditEnrolledStudentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditMarkForm.Designer.cs">
+      <DependentUpon>EditMarkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPaymentStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPaymentStudentForm.Designer.cs">
+      <DependentUpon>EditPaymentStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPayrollForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPayrollForm.Designer.cs">
+      <DependentUpon>EditPayrollForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPupilAttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPupilAttendanceForm.Designer.cs">
+      <DependentUpon>EditPupilAttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditStudentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditStudentsForm.Designer.cs">
+      <DependentUpon>EditStudentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EducationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EducationForm.Designer.cs">
+      <DependentUpon>EducationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeAttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeAttendanceForm.Designer.cs">
+      <DependentUpon>EmployeeAttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnrolledStudentsCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnrolledStudentsCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EnrolledStudentsDS.cs">
+      <DependentUpon>EnrolledStudentsDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EnrolledStudentsDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnrolledStudentsDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EnrollStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnrollStudentForm.Designer.cs">
+      <DependentUpon>EnrollStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CR\ExpensesCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExpensesCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DS\ExpensesDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExpensesDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ExpensesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpensesForm.Designer.cs">
+      <DependentUpon>ExpensesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeesForm.Designer.cs">
+      <DependentUpon>FeesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstTermCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FirstTermCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FirstTermDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FirstTermDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FirstTermReportCardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstTermReportCardForm.Designer.cs">
+      <DependentUpon>FirstTermReportCardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDashboard.Designer.cs">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormerPupilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormerPupilForm.Designer.cs">
+      <DependentUpon>FormerPupilForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FullDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FullDashboardForm.Designer.cs">
+      <DependentUpon>FullDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralBudgetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralBudgetForm.Designer.cs">
+      <DependentUpon>GeneralBudgetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GradeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GradeForm.Designer.cs">
+      <DependentUpon>GradeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobDutyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobDutyForm.Designer.cs">
+      <DependentUpon>JobDutyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfEmployeeAttendanceCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListOfEmployeeAttendanceCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListOfEmployeeAttendanceDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListOfEmployeeAttendanceDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ListofEmployeeAttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListofEmployeeAttendanceForm.Designer.cs">
+      <DependentUpon>ListofEmployeeAttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfEmployeeCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListOfEmployeeCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListOfEmployeeDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListOfEmployeeDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfEnrolledStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfEnrolledStudentForm.Designer.cs">
+      <DependentUpon>ListOfEnrolledStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfExpensesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfExpensesForm.Designer.cs">
+      <DependentUpon>ListOfExpensesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfPayrollForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfPayrollForm.Designer.cs">
+      <DependentUpon>ListOfPayrollForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfPupilAttendanceCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListOfPupilAttendanceCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListOfPupilAttendanceDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListOfPupilAttendanceDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ListofPupilAttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListofPupilAttendanceForm.Designer.cs">
+      <DependentUpon>ListofPupilAttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfStudentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfStudentsForm.Designer.cs">
+      <DependentUpon>ListOfStudentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfStudentsPaidForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfStudentsPaidForm.Designer.cs">
+      <DependentUpon>ListOfStudentsPaidForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfTeachersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfTeachersForm.Designer.cs">
+      <DependentUpon>ListOfTeachersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoanForm.Designer.cs">
+      <DependentUpon>LoanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageEmployeeForm.Designer.cs">
+      <DependentUpon>ManageEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageUsersForm.Designer.cs">
+      <DependentUpon>ManageUsersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarkListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkListForm.Designer.cs">
+      <DependentUpon>MarkListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarksheetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarksheetForm.Designer.cs">
+      <DependentUpon>MarksheetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalDetailsCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MedicalDetailsCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MedicalDetailsDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MedicalDetailsDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedicalDetailsForm.Designer.cs">
+      <DependentUpon>MedicalDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OvertimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OvertimeForm.Designer.cs">
+      <DependentUpon>OvertimeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaidPupilPerClassYearCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaidPupilPerClassYearCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PaidPupilPerClassYearDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaidPupilPerClassYearDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PaidPupilPerClassYearPupilCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaidPupilPerClassYearPupilCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PaidPupilPerClassYearPupilDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaidPupilPerClassYearPupilDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentStudentForm.Designer.cs">
+      <DependentUpon>PaymentStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollDS.cs">
+      <DependentUpon>PayrollDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayrollForm.Designer.cs">
+      <DependentUpon>PayrollForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollListCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollListCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PayrollListDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollListDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PayrolltCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrolltCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintEmployeeAttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintEmployeeAttendanceForm.Designer.cs">
+      <DependentUpon>PrintEmployeeAttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintEnrolledPupilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintEnrolledPupilForm.Designer.cs">
+      <DependentUpon>PrintEnrolledPupilForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintExpensesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintExpensesForm.Designer.cs">
+      <DependentUpon>PrintExpensesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintExpensesListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintExpensesListForm.Designer.cs">
+      <DependentUpon>PrintExpensesListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintIncomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintIncomeForm.Designer.cs">
+      <DependentUpon>PrintIncomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintMedicalDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintMedicalDetailsForm.Designer.cs">
+      <DependentUpon>PrintMedicalDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPaymentListFormPerClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintPaymentListFormPerClass.Designer.cs">
+      <DependentUpon>PrintPaymentListFormPerClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPaymentPerClassYearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintPaymentPerClassYearForm.Designer.cs">
+      <DependentUpon>PrintPaymentPerClassYearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPayrollForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintPayrollForm.Designer.cs">
+      <DependentUpon>PrintPayrollForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPupilAttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintPupilAttendanceForm.Designer.cs">
+      <DependentUpon>PrintPupilAttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPupilWithDisabilityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintPupilWithDisabilityForm.Designer.cs">
+      <DependentUpon>PrintPupilWithDisabilityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintReceiptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintReceiptForm.Designer.cs">
+      <DependentUpon>PrintReceiptForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintSalaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintSalaryForm.Designer.cs">
+      <DependentUpon>PrintSalaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintStaffAssignClassListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintStaffAssignClassListForm.Designer.cs">
+      <DependentUpon>PrintStaffAssignClassListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintStaffListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintStaffListForm.Designer.cs">
+      <DependentUpon>PrintStaffListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PupilAttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PupilAttendanceForm.Designer.cs">
+      <DependentUpon>PupilAttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PupilsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PupilsForm.Designer.cs">
+      <DependentUpon>PupilsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiptCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReceiptDS.cs">
+      <DependentUpon>ReceiptDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiptDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptDS1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiptDS1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RegionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegionForm.Designer.cs">
+      <DependentUpon>RegionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterPupilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterPupilForm.Designer.cs">
+      <DependentUpon>RegisterPupilForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SchoolFeesRemainderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchoolFeesRemainderForm.Designer.cs">
+      <DependentUpon>SchoolFeesRemainderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SectionForm.Designer.cs">
+      <DependentUpon>SectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShinaMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShinaMain.Designer.cs">
+      <DependentUpon>ShinaMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShinaMainMDIParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShinaMainMDIParent.Designer.cs">
+      <DependentUpon>ShinaMainMDIParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffAssignClassListCR.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StaffAssignClassListCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StaffAssignClassListDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StaffAssignClassListDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentsDetailsForm.Designer.cs">
+      <DependentUpon>StudentsDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentsForm.Designer.cs">
+      <DependentUpon>StudentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubdivisionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubdivisionForm.Designer.cs">
+      <DependentUpon>SubdivisionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeachersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeachersForm.Designer.cs">
+      <DependentUpon>TeachersForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AcademicYearForm.resx">
+      <DependentUpon>AcademicYearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccessForm.resx">
+      <DependentUpon>AccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivateDeactivateForm.resx">
+      <DependentUpon>ActivateDeactivateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAnIncomeForm.resx">
+      <DependentUpon>AddAnIncomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignTeacherClassForm.resx">
+      <DependentUpon>AssignTeacherClassForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BonusesForm.resx">
+      <DependentUpon>BonusesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryForm.resx">
+      <DependentUpon>CategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassForm.resx">
+      <DependentUpon>ClassForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassListCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ClassListCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassListForm.resx">
+      <DependentUpon>ClassListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassroomForm.resx">
+      <DependentUpon>ClassroomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CR\IncomeCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IncomeCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisabilityCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DisabilityCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DivisionForm.resx">
+      <DependentUpon>DivisionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEmployeeAttendanceForm.resx">
+      <DependentUpon>EditEmployeeAttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEnrolledStudentsForm.resx">
+      <DependentUpon>EditEnrolledStudentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMarkForm.resx">
+      <DependentUpon>EditMarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPaymentStudentForm.resx">
+      <DependentUpon>EditPaymentStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPayrollForm.resx">
+      <DependentUpon>EditPayrollForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPupilAttendanceForm.resx">
+      <DependentUpon>EditPupilAttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStudentsForm.resx">
+      <DependentUpon>EditStudentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EducationForm.resx">
+      <DependentUpon>EducationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeAttendanceForm.resx">
+      <DependentUpon>EmployeeAttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnrolledStudentsCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EnrolledStudentsCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnrollStudentForm.resx">
+      <DependentUpon>EnrollStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CR\ExpensesCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExpensesCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpensesForm.resx">
+      <DependentUpon>ExpensesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeesForm.resx">
+      <DependentUpon>FeesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstTermCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FirstTermCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstTermReportCardForm.resx">
+      <DependentUpon>FirstTermReportCardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDashboard.resx">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormerPupilForm.resx">
+      <DependentUpon>FormerPupilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FullDashboardForm.resx">
+      <DependentUpon>FullDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralBudgetForm.resx">
+      <DependentUpon>GeneralBudgetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradeForm.resx">
+      <DependentUpon>GradeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobDutyForm.resx">
+      <DependentUpon>JobDutyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfEmployeeAttendanceCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListOfEmployeeAttendanceCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListofEmployeeAttendanceForm.resx">
+      <DependentUpon>ListofEmployeeAttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfEmployeeCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListOfEmployeeCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfEnrolledStudentForm.resx">
+      <DependentUpon>ListOfEnrolledStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfExpensesForm.resx">
+      <DependentUpon>ListOfExpensesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfPayrollForm.resx">
+      <DependentUpon>ListOfPayrollForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfPupilAttendanceCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListOfPupilAttendanceCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListofPupilAttendanceForm.resx">
+      <DependentUpon>ListofPupilAttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfStudentsForm.resx">
+      <DependentUpon>ListOfStudentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfStudentsPaidForm.resx">
+      <DependentUpon>ListOfStudentsPaidForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfTeachersForm.resx">
+      <DependentUpon>ListOfTeachersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanForm.resx">
+      <DependentUpon>LoanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageEmployeeForm.resx">
+      <DependentUpon>ManageEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUsersForm.resx">
+      <DependentUpon>ManageUsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkListForm.resx">
+      <DependentUpon>MarkListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarksheetForm.resx">
+      <DependentUpon>MarksheetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedicalDetailsCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MedicalDetailsCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedicalDetailsForm.resx">
+      <DependentUpon>MedicalDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OvertimeForm.resx">
+      <DependentUpon>OvertimeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaidPupilPerClassYearCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PaidPupilPerClassYearCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaidPupilPerClassYearPupilCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PaidPupilPerClassYearPupilCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentStudentForm.resx">
+      <DependentUpon>PaymentStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayrollForm.resx">
+      <DependentUpon>PayrollForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayrollListCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PayrollListCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayrolltCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PayrolltCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintEmployeeAttendanceForm.resx">
+      <DependentUpon>PrintEmployeeAttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintEnrolledPupilForm.resx">
+      <DependentUpon>PrintEnrolledPupilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintExpensesForm.resx">
+      <DependentUpon>PrintExpensesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintExpensesListForm.resx">
+      <DependentUpon>PrintExpensesListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintIncomeForm.resx">
+      <DependentUpon>PrintIncomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintMedicalDetailsForm.resx">
+      <DependentUpon>PrintMedicalDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPaymentListFormPerClass.resx">
+      <DependentUpon>PrintPaymentListFormPerClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPaymentPerClassYearForm.resx">
+      <DependentUpon>PrintPaymentPerClassYearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPayrollForm.resx">
+      <DependentUpon>PrintPayrollForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPupilAttendanceForm.resx">
+      <DependentUpon>PrintPupilAttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPupilWithDisabilityForm.resx">
+      <DependentUpon>PrintPupilWithDisabilityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintReceiptForm.resx">
+      <DependentUpon>PrintReceiptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintSalaryForm.resx">
+      <DependentUpon>PrintSalaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintStaffAssignClassListForm.resx">
+      <DependentUpon>PrintStaffAssignClassListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintStaffListForm.resx">
+      <DependentUpon>PrintStaffListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PupilAttendanceForm.resx">
+      <DependentUpon>PupilAttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PupilsForm.resx">
+      <DependentUpon>PupilsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiptCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReceiptCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegionForm.resx">
+      <DependentUpon>RegionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterPupilForm.resx">
+      <DependentUpon>RegisterPupilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchoolFeesRemainderForm.resx">
+      <DependentUpon>SchoolFeesRemainderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SectionForm.resx">
+      <DependentUpon>SectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShinaMain.resx">
+      <DependentUpon>ShinaMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShinaMainMDIParent.resx">
+      <DependentUpon>ShinaMainMDIParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffAssignClassListCR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StaffAssignClassListCR.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentsDetailsForm.resx">
+      <DependentUpon>StudentsDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentsForm.resx">
+      <DependentUpon>StudentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubdivisionForm.resx">
+      <DependentUpon>SubdivisionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeachersForm.resx">
+      <DependentUpon>TeachersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassListDS.xsc">
+      <DependentUpon>ClassListDS.xsd</DependentUpon>
+    </None>
+    <None Include="ClassListDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ClassListDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ClassListDS.xss">
+      <DependentUpon>ClassListDS.xsd</DependentUpon>
+    </None>
+    <None Include="DisabilityDS.xsc">
+      <DependentUpon>DisabilityDS.xsd</DependentUpon>
+    </None>
+    <None Include="DisabilityDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DisabilityDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DisabilityDS.xss">
+      <DependentUpon>DisabilityDS.xsd</DependentUpon>
+    </None>
+    <None Include="DS\IncomeDS.xsc">
+      <DependentUpon>IncomeDS.xsd</DependentUpon>
+    </None>
+    <None Include="DS\IncomeDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IncomeDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\IncomeDS.xss">
+      <DependentUpon>IncomeDS.xsd</DependentUpon>
+    </None>
+    <None Include="EnrolledStudentsDS.xsc">
+      <DependentUpon>EnrolledStudentsDS.xsd</DependentUpon>
+    </None>
+    <None Include="EnrolledStudentsDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EnrolledStudentsDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="EnrolledStudentsDS.xss">
+      <DependentUpon>EnrolledStudentsDS.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ExpensesDS.xsc">
+      <DependentUpon>ExpensesDS.xsd</DependentUpon>
+    </None>
+    <None Include="DS\ExpensesDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ExpensesDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\ExpensesDS.xss">
+      <DependentUpon>ExpensesDS.xsd</DependentUpon>
+    </None>
+    <None Include="FirstTermDS.xsc">
+      <DependentUpon>FirstTermDS.xsd</DependentUpon>
+    </None>
+    <None Include="FirstTermDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FirstTermDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="FirstTermDS.xss">
+      <DependentUpon>FirstTermDS.xsd</DependentUpon>
+    </None>
+    <None Include="ListOfEmployeeAttendanceDS.xsc">
+      <DependentUpon>ListOfEmployeeAttendanceDS.xsd</DependentUpon>
+    </None>
+    <None Include="ListOfEmployeeAttendanceDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ListOfEmployeeAttendanceDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ListOfEmployeeAttendanceDS.xss">
+      <DependentUpon>ListOfEmployeeAttendanceDS.xsd</DependentUpon>
+    </None>
+    <None Include="ListOfEmployeeDS.xsc">
+      <DependentUpon>ListOfEmployeeDS.xsd</DependentUpon>
+    </None>
+    <None Include="ListOfEmployeeDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ListOfEmployeeDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ListOfEmployeeDS.xss">
+      <DependentUpon>ListOfEmployeeDS.xsd</DependentUpon>
+    </None>
+    <None Include="ListOfPupilAttendanceDS.xsc">
+      <DependentUpon>ListOfPupilAttendanceDS.xsd</DependentUpon>
+    </None>
+    <None Include="ListOfPupilAttendanceDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ListOfPupilAttendanceDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ListOfPupilAttendanceDS.xss">
+      <DependentUpon>ListOfPupilAttendanceDS.xsd</DependentUpon>
+    </None>
+    <None Include="MedicalDetailsDS.xsc">
+      <DependentUpon>MedicalDetailsDS.xsd</DependentUpon>
+    </None>
+    <None Include="MedicalDetailsDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MedicalDetailsDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MedicalDetailsDS.xss">
+      <DependentUpon>MedicalDetailsDS.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PaidPupilPerClassYearDS.xsc">
+      <DependentUpon>PaidPupilPerClassYearDS.xsd</DependentUpon>
+    </None>
+    <None Include="PaidPupilPerClassYearDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaidPupilPerClassYearDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PaidPupilPerClassYearDS.xss">
+      <DependentUpon>PaidPupilPerClassYearDS.xsd</DependentUpon>
+    </None>
+    <None Include="PaidPupilPerClassYearPupilDS.xsc">
+      <DependentUpon>PaidPupilPerClassYearPupilDS.xsd</DependentUpon>
+    </None>
+    <None Include="PaidPupilPerClassYearPupilDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaidPupilPerClassYearPupilDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PaidPupilPerClassYearPupilDS.xss">
+      <DependentUpon>PaidPupilPerClassYearPupilDS.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollDS.xsc">
+      <DependentUpon>PayrollDS.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PayrollDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PayrollDS.xss">
+      <DependentUpon>PayrollDS.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollListDS.xsc">
+      <DependentUpon>PayrollListDS.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollListDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PayrollListDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PayrollListDS.xss">
+      <DependentUpon>PayrollListDS.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SHINASoftware_TemporaryKey.pfx" />
+    <None Include="StaffAssignClassListDS.xsc">
+      <DependentUpon>StaffAssignClassListDS.xsd</DependentUpon>
+    </None>
+    <None Include="StaffAssignClassListDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StaffAssignClassListDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="StaffAssignClassListDS.xss">
+      <DependentUpon>StaffAssignClassListDS.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReceiptDS.xsc">
+      <DependentUpon>ReceiptDS.xsd</DependentUpon>
+    </None>
+    <None Include="ReceiptDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReceiptDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ReceiptDS.xss">
+      <DependentUpon>ReceiptDS.xsd</DependentUpon>
+    </None>
+    <None Include="ReceiptDS1.xsc">
+      <DependentUpon>ReceiptDS1.xsd</DependentUpon>
+    </None>
+    <None Include="ReceiptDS1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReceiptDS1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ReceiptDS1.xss">
+      <DependentUpon>ReceiptDS1.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\shina logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Admin-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male-student-icon-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\class.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt-dollar-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1-64x64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar--icon-png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Images\EmployeePictures\" />
+    <Folder Include="Images\PupilPictures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_dF9_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_zuZ_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_INv_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_acR_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_zbp_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_CYX_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\display_thI_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_7FJ_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_f4W_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_student_XgN_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_student_Sht_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_teacher_PCN_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_new_teacher_md_QHy_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-icon-3058.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_zDT_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activate_icon_zgW_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\access_G4y_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\section_hpz_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enrollment_MJd_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_button_gwz_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-icon-small-0.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee_uQA_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payroll_LjM_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="shina logo1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

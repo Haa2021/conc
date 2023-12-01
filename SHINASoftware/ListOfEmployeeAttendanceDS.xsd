@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ListOfEmployeeAttendanceDS" targetNamespace="http://tempuri.org/ListOfEmployeeAttendanceDS.xsd" xmlns:mstns="http://tempuri.org/ListOfEmployeeAttendanceDS.xsd" xmlns="http://tempuri.org/ListOfEmployeeAttendanceDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ListOfEmployeeAttendanceDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ListOfEmployeeAttendanceDS" msprop:Generator_UserDSName="ListOfEmployeeAttendanceDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EmployeeAttendance" msprop:Generator_TableClassName="EmployeeAttendanceDataTable" msprop:Generator_TableVarName="tableEmployeeAttendance" msprop:Generator_RowChangedName="EmployeeAttendanceRowChanged" msprop:Generator_TablePropName="EmployeeAttendance" msprop:Generator_RowDeletingName="EmployeeAttendanceRowDeleting" msprop:Generator_RowChangingName="EmployeeAttendanceRowChanging" msprop:Generator_RowEvHandlerName="EmployeeAttendanceRowChangeEventHandler" msprop:Generator_RowDeletedName="EmployeeAttendanceRowDeleted" msprop:Generator_RowClassName="EmployeeAttendanceRow" msprop:Generator_UserTableName="EmployeeAttendance" msprop:Generator_RowEvArgName="EmployeeAttendanceRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EIN" msprop:Generator_ColumnVarNameInTable="columnEIN" msprop:Generator_ColumnPropNameInRow="EIN" msprop:Generator_ColumnPropNameInTable="EINColumn" msprop:Generator_UserColumnName="EIN" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="GradeName" msprop:Generator_ColumnVarNameInTable="columnGradeName" msprop:Generator_ColumnPropNameInRow="GradeName" msprop:Generator_ColumnPropNameInTable="GradeNameColumn" msprop:Generator_UserColumnName="GradeName" type="xs:string" minOccurs="0" />
+              <xs:element name="JobDutyName" msprop:Generator_ColumnVarNameInTable="columnJobDutyName" msprop:Generator_ColumnPropNameInRow="JobDutyName" msprop:Generator_ColumnPropNameInTable="JobDutyNameColumn" msprop:Generator_UserColumnName="JobDutyName" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckAttendanceDate" msprop:Generator_ColumnVarNameInTable="columnCheckAttendanceDate" msprop:Generator_ColumnPropNameInRow="CheckAttendanceDate" msprop:Generator_ColumnPropNameInTable="CheckAttendanceDateColumn" msprop:Generator_UserColumnName="CheckAttendanceDate" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckedAttendanceBy" msprop:Generator_ColumnVarNameInTable="columnCheckedAttendanceBy" msprop:Generator_ColumnPropNameInRow="CheckedAttendanceBy" msprop:Generator_ColumnPropNameInTable="CheckedAttendanceByColumn" msprop:Generator_UserColumnName="CheckedAttendanceBy" type="xs:string" minOccurs="0" />
+              <xs:element name="Username" msprop:Generator_ColumnVarNameInTable="columnUsername" msprop:Generator_ColumnPropNameInRow="Username" msprop:Generator_ColumnPropNameInTable="UsernameColumn" msprop:Generator_UserColumnName="Username" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

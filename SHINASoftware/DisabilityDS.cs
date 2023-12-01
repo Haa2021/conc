@@ -1,0 +1,7 @@
+﻿namespace SHINASoftware
+{
+}
+
+namespace SHINASoftware
+{
+}

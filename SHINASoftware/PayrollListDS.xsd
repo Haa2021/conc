@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PayrollListDS" targetNamespace="http://tempuri.org/PayrollListDS.xsd" xmlns:mstns="http://tempuri.org/PayrollListDS.xsd" xmlns="http://tempuri.org/PayrollListDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PayrollListDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PayrollListDS" msprop:Generator_UserDSName="PayrollListDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PayrollList" msprop:Generator_TableClassName="PayrollListDataTable" msprop:Generator_TableVarName="tablePayrollList" msprop:Generator_TablePropName="PayrollList" msprop:Generator_RowDeletingName="PayrollListRowDeleting" msprop:Generator_RowChangingName="PayrollListRowChanging" msprop:Generator_RowEvHandlerName="PayrollListRowChangeEventHandler" msprop:Generator_RowDeletedName="PayrollListRowDeleted" msprop:Generator_UserTableName="PayrollList" msprop:Generator_RowChangedName="PayrollListRowChanged" msprop:Generator_RowEvArgName="PayrollListRowChangeEvent" msprop:Generator_RowClassName="PayrollListRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EIN" msprop:Generator_ColumnVarNameInTable="columnEIN" msprop:Generator_ColumnPropNameInRow="EIN" msprop:Generator_ColumnPropNameInTable="EINColumn" msprop:Generator_UserColumnName="EIN" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="PayRollYear" msprop:Generator_ColumnVarNameInTable="columnPayRollYear" msprop:Generator_ColumnPropNameInRow="PayRollYear" msprop:Generator_ColumnPropNameInTable="PayRollYearColumn" msprop:Generator_UserColumnName="PayRollYear" type="xs:string" minOccurs="0" />
+              <xs:element name="PayRollMonth" msprop:Generator_ColumnVarNameInTable="columnPayRollMonth" msprop:Generator_ColumnPropNameInRow="PayRollMonth" msprop:Generator_ColumnPropNameInTable="PayRollMonthColumn" msprop:Generator_UserColumnName="PayRollMonth" type="xs:string" minOccurs="0" />
+              <xs:element name="NetPay" msprop:Generator_ColumnVarNameInTable="columnNetPay" msprop:Generator_ColumnPropNameInRow="NetPay" msprop:Generator_ColumnPropNameInTable="NetPayColumn" msprop:Generator_UserColumnName="NetPay" type="xs:string" minOccurs="0" />
+              <xs:element name="ModeOfPayment" msprop:Generator_ColumnVarNameInTable="columnModeOfPayment" msprop:Generator_ColumnPropNameInRow="ModeOfPayment" msprop:Generator_ColumnPropNameInTable="ModeOfPaymentColumn" msprop:Generator_UserColumnName="ModeOfPayment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
