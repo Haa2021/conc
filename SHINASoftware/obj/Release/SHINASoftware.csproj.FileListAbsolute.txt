@@ -440,3 +440,5 @@ C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINA
 C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintExpensesListForm.resources
 C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.AddAnIncomeForm.resources
 C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.PrintIncomeForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.TermForm.resources
+C:\Users\hassa\OneDrive\Documents\Visual Studio 2019\Project\SHINASoftware\SHINASoftware\obj\Release\SHINASoftware.SequenceForm.resources

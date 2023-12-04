@@ -161,6 +161,8 @@
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.Day1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.Time1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblVersion = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.lblLevelID = new System.Windows.Forms.Label();
             this.lblLevel = new System.Windows.Forms.Label();
@@ -170,8 +172,6 @@
             this.lblCurrentYear = new System.Windows.Forms.Label();
             this.lblAcademicYearID = new System.Windows.Forms.Label();
             this.lblAcademicYear = new System.Windows.Forms.Label();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lblVersion = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -441,12 +441,14 @@
             this.termToolStripMenuItem.Name = "termToolStripMenuItem";
             this.termToolStripMenuItem.Size = new System.Drawing.Size(289, 28);
             this.termToolStripMenuItem.Text = "Term";
+            this.termToolStripMenuItem.Click += new System.EventHandler(this.TermToolStripMenuItem_Click);
             // 
             // sequenceToolStripMenuItem
             // 
             this.sequenceToolStripMenuItem.Name = "sequenceToolStripMenuItem";
-            this.sequenceToolStripMenuItem.Size = new System.Drawing.Size(156, 28);
+            this.sequenceToolStripMenuItem.Size = new System.Drawing.Size(180, 28);
             this.sequenceToolStripMenuItem.Text = "Sequence";
+            this.sequenceToolStripMenuItem.Click += new System.EventHandler(this.SequenceToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -1203,6 +1205,18 @@
             this.Time1.Text = "Time1";
             this.Time1.Click += new System.EventHandler(this.ToolStripStatusLabel1_Click);
             // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(48, 17);
+            this.toolStripStatusLabel1.Text = "Version:";
+            // 
+            // lblVersion
+            // 
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(58, 17);
+            this.lblVersion.Text = "lblVersion";
+            // 
             // lblLevelID
             // 
             this.lblLevelID.AutoSize = true;
@@ -1276,18 +1290,6 @@
             this.lblAcademicYear.Size = new System.Drawing.Size(76, 13);
             this.lblAcademicYear.TabIndex = 29;
             this.lblAcademicYear.Text = "AcademicYear";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(48, 17);
-            this.toolStripStatusLabel1.Text = "Version:";
-            // 
-            // lblVersion
-            // 
-            this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(58, 17);
-            this.lblVersion.Text = "lblVersion";
             // 
             // ShinaMainMDIParent
             // 

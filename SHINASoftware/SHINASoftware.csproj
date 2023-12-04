@@ -714,6 +714,12 @@
     <Compile Include="SectionForm.Designer.cs">
       <DependentUpon>SectionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SequenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SequenceForm.Designer.cs">
+      <DependentUpon>SequenceForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ShinaMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -760,6 +766,12 @@
     </Compile>
     <Compile Include="TeachersForm.Designer.cs">
       <DependentUpon>TeachersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TermForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TermForm.Designer.cs">
+      <DependentUpon>TermForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AcademicYearForm.resx">
       <DependentUpon>AcademicYearForm.cs</DependentUpon>
@@ -1044,6 +1056,9 @@
     <EmbeddedResource Include="SectionForm.resx">
       <DependentUpon>SectionForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SequenceForm.resx">
+      <DependentUpon>SequenceForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ShinaMain.resx">
       <DependentUpon>ShinaMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -1065,6 +1080,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TeachersForm.resx">
       <DependentUpon>TeachersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TermForm.resx">
+      <DependentUpon>TermForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassListDS.xsc">
       <DependentUpon>ClassListDS.xsd</DependentUpon>

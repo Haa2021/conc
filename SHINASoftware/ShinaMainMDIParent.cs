@@ -521,5 +521,19 @@ namespace SHINASoftware
             obj.MdiParent = this;
             obj.Show();
         }
+
+        private void TermToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TermForm obj = new TermForm();
+            obj.MdiParent = this;
+            obj.Show();
+        }
+
+        private void SequenceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SequenceForm obj = new SequenceForm();
+            obj.MdiParent = this;
+            obj.Show();
+        }
     }
 }
