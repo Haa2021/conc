@@ -1,0 +1,87 @@
+# .NET Framework specific
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache/options directory
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet Packages
+*.nupkg
+packages/
+**/packages/*
+!packages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows shortcuts
+*.lnk
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Crystal Reports
+*.rpt.bak
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# ===============================================
+# IMPORTANT: Database Schema - DO NOT IGNORE
+# ===============================================
+# db.sql is the source of truth and MUST be tracked
+!db.sql
+
+# However, other SQL dumps can be ignored
+# *db*.sql
+# *.sql
+
+# Keep db.sql explicitly tracked
