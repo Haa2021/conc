@@ -1,0 +1,129 @@
+name: DB Schema Verification Reminder
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - '**/*.cs'
+      - 'db.sql'
+
+jobs:
+  check-db-verification:
+    runs-on: ubuntu-latest
+    name: Remind to verify against db.sql
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Check for Discipline module changes
+        id: check_changes
+        run: |
+          # Check if any C# files related to Discipline module were changed
+          CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD)
+          echo "Changed files:"
+          echo "$CHANGED_FILES"
+          
+          # Keywords that indicate Discipline module changes
+          DISCIPLINE_KEYWORDS="CouncilMeeting|ConductScore|AppliedSanction|SanctionType|Discipline"
+          
+          if echo "$CHANGED_FILES" | grep -iE "$DISCIPLINE_KEYWORDS"; then
+            echo "discipline_changed=true" >> $GITHUB_OUTPUT
+            echo "✅ Detected changes in Discipline module files"
+          else
+            echo "discipline_changed=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No Discipline module changes detected"
+          fi
+
+      - name: Check if db.sql was modified
+        id: check_db_sql
+        run: |
+          CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD)
+          if echo "$CHANGED_FILES" | grep -q "db.sql"; then
+            echo "db_sql_changed=true" >> $GITHUB_OUTPUT
+            echo "✅ db.sql was modified in this PR"
+          else
+            echo "db_sql_changed=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ db.sql was not modified in this PR"
+          fi
+
+      - name: Post reminder comment
+        if: steps.check_changes.outputs.discipline_changed == 'true'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            
+            const botComment = comments.find(comment => 
+              comment.user.type === 'Bot' && 
+              comment.body.includes('Vérification db.sql')
+            );
+            
+            const dbSqlChanged = '${{ steps.check_db_sql.outputs.db_sql_changed }}' === 'true';
+            
+            let message = `## 📋 Vérification db.sql - Module Discipline
+            
+            Ce PR modifie des fichiers du module Discipline. **Veuillez vérifier:**
+            
+            ### ✅ Checklist de Vérification
+            
+            - [ ] J'ai consulté \`db.sql\` pour vérifier la structure des tables
+            - [ ] Les noms de colonnes dans mes modèles C# correspondent exactement à \`db.sql\`
+            - [ ] Les types de données C# sont compatibles avec les types SQL de \`db.sql\`
+            - [ ] Les contraintes (NOT NULL, UNIQUE, etc.) sont respectées
+            - [ ] Les relations et foreign keys sont correctement définies
+            - [ ] Si j'ai ajouté des triggers/procédures, ils sont documentés dans \`db.sql\`
+            `;
+            
+            if (dbSqlChanged) {
+              message += `\n✅ **db.sql a été modifié** - Parfait! Assurez-vous que les changements sont cohérents avec votre code.\n`;
+            } else {
+              message += `\n⚠️ **db.sql n'a pas été modifié** - Si vous avez modifié la structure de la base, pensez à mettre à jour db.sql également.\n`;
+            }
+            
+            message += `\n### 📚 Ressources
+            
+            - [Guide de Vérification](.github/DB_VERIFICATION_GUIDE.md)
+            - [Script de Vérification](scripts/verify-models.ps1)
+            
+            Pour exécuter le script de vérification localement:
+            \`\`\`powershell
+            .\\scripts\\verify-models.ps1
+            \`\`\`
+            
+            ---
+            *Ce message est généré automatiquement pour rappeler l'importance de la cohérence avec db.sql*`;
+            
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: message
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: message
+              });
+            }
+
+      - name: Summary
+        if: steps.check_changes.outputs.discipline_changed == 'true'
+        run: |
+          echo "### 📋 DB Verification Reminder Posted" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Ce PR modifie le module Discipline." >> $GITHUB_STEP_SUMMARY
+          echo "Un rappel de vérification avec db.sql a été posté dans les commentaires." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Actions requises:**" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ Cocher 'Vérifié avec db.sql' dans le template de PR" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ Vérifier que les modèles correspondent à db.sql" >> $GITHUB_STEP_SUMMARY
