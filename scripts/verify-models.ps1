@@ -41,7 +41,8 @@ foreach ($table in $disciplineTables) {
     Write-Host "🔍 Vérification de $table..." -ForegroundColor Cyan
     
     # Rechercher la définition de la table dans db.sql
-    $pattern = "CREATE TABLE [`']?$table[`']?\s*\("
+    # Support MySQL backtick quoting and case-insensitive matching
+    $pattern = "CREATE TABLE\s+\`?$table\`?\s*\("
     if ($dbSqlContent -match $pattern) {
         Write-Host "   ✅ Définition trouvée dans db.sql" -ForegroundColor Green
         
@@ -55,10 +56,14 @@ foreach ($table in $disciplineTables) {
             $lines = $tableDefinition -split "`n"
             $columns = @()
             foreach ($line in $lines) {
-                if ($line -match "^\s*[`']?(\w+)[`']?\s+(INT|VARCHAR|DATE|DATETIME|DECIMAL|DOUBLE|TEXT|CHAR|TINYINT|SMALLINT|BIGINT|FLOAT)") {
+                # Match columns with backticks, optional length/precision, and modifiers
+                if ($line -match "^\s*\`?(\w+)\`?\s+(INT|VARCHAR|DATE|DATETIME|DECIMAL|DOUBLE|TEXT|CHAR|TINYINT|SMALLINT|BIGINT|FLOAT)(\([^\)]+\))?\s*(UNSIGNED)?") {
                     $columnName = $matches[1]
                     $columnType = $matches[2]
-                    $columns += @{Name=$columnName; Type=$columnType}
+                    $columnLength = $matches[3]
+                    $columnModifier = $matches[4]
+                    $fullType = "$columnType$columnLength $columnModifier".Trim()
+                    $columns += @{Name=$columnName; Type=$fullType}
                 }
             }
             
@@ -70,8 +75,23 @@ foreach ($table in $disciplineTables) {
             }
         }
         
-        # Chercher le modèle C# correspondant
-        $modelFiles = Get-ChildItem -Path (Join-Path $PSScriptRoot "..\SHINASoftware") -Filter "*$table*.cs" -Recurse -ErrorAction SilentlyContinue
+        # Chercher le modèle C# correspondant avec plusieurs stratégies
+        $searchPath = Join-Path $PSScriptRoot "..\SHINASoftware"
+        $modelFiles = @()
+        
+        # Stratégie 1: Nom exact
+        $modelFiles += Get-ChildItem -Path $searchPath -Filter "$table.cs" -Recurse -ErrorAction SilentlyContinue
+        
+        # Stratégie 2: Avec "Model" suffix
+        $modelFiles += Get-ChildItem -Path $searchPath -Filter "$($table)Model.cs" -Recurse -ErrorAction SilentlyContinue
+        
+        # Stratégie 3: Wildcard (peut avoir faux positifs, mais utile)
+        $wildcardFiles = Get-ChildItem -Path $searchPath -Filter "*$table*.cs" -Recurse -ErrorAction SilentlyContinue
+        foreach ($file in $wildcardFiles) {
+            if ($modelFiles -notcontains $file) {
+                $modelFiles += $file
+            }
+        }
         
         if ($modelFiles.Count -eq 0) {
             Write-Host "   ⚠️  ATTENTION: Aucun fichier modèle C# trouvé pour $table" -ForegroundColor Yellow
